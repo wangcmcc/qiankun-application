@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-menu :el-menu-item="true" mode=horizontal>
+    <el-menu :router="true" mode=horizontal>
        <!-- 基座中可以放自己的路由 -->
        <el-menu-item index="/">Home</el-menu-item> 
        <!-- 引用其他子应用 -->
